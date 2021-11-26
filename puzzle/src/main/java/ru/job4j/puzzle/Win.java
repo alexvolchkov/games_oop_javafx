@@ -17,7 +17,7 @@ public class Win {
     public static boolean checkHorizontal(int[] array) {
         boolean result = true;
         for (int el : array) {
-            if (el != 1){
+            if (el != 1) {
                 result = false;
                 break;
             }
@@ -28,7 +28,7 @@ public class Win {
     public static boolean checkVertical(int[][] array, int ceil) {
         boolean result = true;
         for (int[] el : array) {
-            if (el[ceil] != 1){
+            if (el[ceil] != 1) {
                 result = false;
                 break;
             }
